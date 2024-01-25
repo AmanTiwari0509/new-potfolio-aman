@@ -25,7 +25,7 @@ function App() {
       <ProjectCount />
       <Services /> 
       <Portfolio /> 
-      {/* <Resume /> */}
+      <Resume />
       <Logo />
       <Contact />
       <Footer />
