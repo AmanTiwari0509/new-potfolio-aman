@@ -7,7 +7,7 @@ const experence = [
     companyName: "Annalect",
     experence: "16 Nov 2024 - Present",
     role: "Front End & Motion Developer",
-    description: "In Project Onboarding Process"
+    description: "Responsible for spearheading projects as a front-end and motion developer, I seamlessly blend technical proficiency with creative innovation. My role involves initiating and driving the development of visually captivating user interfaces, utilizing HTML, CSS, and JavaScript to deliver engaging digital experiences."
   },
   {
     companyName: "Scube Technologies",
