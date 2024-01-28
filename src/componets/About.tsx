@@ -2,7 +2,7 @@ import React from 'react'
 
 const About = () => {
   return (
-    <div id='about' className='w-full md:h-screen h-auto bg-white md:pt-28 pt-16 md:pb-0  pb-16'>
+    <div id='about' className='w-full lg:h-screen md:h-auto h-auto bg-white lg:pt-28 pt-16 lg:pb-0  pb-16'>
       <div className='flex flex-col gap-4 justify-center items-center'>
         <div className='text-4xl font-bold border-t-4 border-t-black border-b-blue-400 border-b-4 border-solid p-2 text-center '>ABOUT ME</div>
         <div className='text-sm tracking-wide text-center text-gray-500'>Experienced frontend engineer specializing in crafting pixel-perfect, user-centric interfaces that elevate digital experiences.</div>

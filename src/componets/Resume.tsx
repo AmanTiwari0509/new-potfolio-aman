@@ -59,7 +59,7 @@ const Resume = () => {
 
   return (
     <>
-      <div className='py-10 h-full md:block hidden'>
+      <div className='py-10 h-full lg:block hidden'>
         <div className='flex flex-col gap-4 justify-center items-center'>
           <div className='text-4xl font-bold border-t-4 border-t-black border-b-blue-400 border-b-4 border-solid p-2 text-center '>Resume</div>
         </div>
@@ -135,7 +135,7 @@ const Resume = () => {
 
       </div>
 
-      <div className='block md:hidden p-4 py-5'>
+      <div className='block lg:hidden p-4 py-5'>
         <div className='flex flex-col gap-4 justify-center items-center'>
           <div className='text-4xl font-bold border-t-4 border-t-black border-b-blue-400 border-b-4 border-solid p-2 text-center '>Resume</div>
         </div>

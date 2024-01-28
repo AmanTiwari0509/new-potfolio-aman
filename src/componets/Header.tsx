@@ -11,7 +11,7 @@ const Header = () => {
 
   return (
     <>
-      <div className="pt-16 px-36 hidden md:block">
+      <div className="pt-16 px-36 hidden lg:block">
         <div className="flex justify-between items-center text-white">
           <div className="text-2xl text-extrabold pl-8">
             <p className=" border-blue-400 border-2 p-3">Profile</p>
@@ -69,7 +69,7 @@ const Header = () => {
         </div>
       </div>
 
-      <div className="md:hidden block bg-white p-4  w-full fixed">
+      <div className="lg:hidden block bg-white p-4  w-full fixed">
         <div className="flex justify-between">
           <div className="text-2xl text-extrabold">
             <p className=" border-blue-400 border-2 p-2">Profile</p>
