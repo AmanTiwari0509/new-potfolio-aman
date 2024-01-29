@@ -85,10 +85,10 @@ const Portfolio = () => {
                 <div className='text-4xl font-bold border-t-4 border-t-black border-b-blue-400 border-b-4 border-solid p-2 text-center '>Portfolio</div>
             </div>
             <div className='flex flex-row gap-8 justify-center items-center py-8'>
-                <div className='md:grid md:grid-cols-3 flex flex-col gap-8'>
+                <div className='lg:grid lg:grid-cols-3 md:grid md:grid-cols-1 flex flex-col gap-8'>
                     {workHistory?.map((item: any) => {
                         return (
-                            <div className='md:w-[400px] w-full h-auto shadow-lg hover:bg-gray-200'>
+                            <div className='lg:w-[400px] w-full h-auto shadow-lg hover:bg-gray-200'>
                                 <div className='w-full p-4 '><img src={item.image} alt="" /></div>
                                 <div className='flex flex-col gap-4 p-4 w-full'>
                                     <p className='text-2xl font bold  text-blue-400'>{item.website}</p>

@@ -5,41 +5,28 @@ import downarrow from "../../public/icons/downarrow.svg";
 import gsap from "gsap";
 
 const Page1 = () => {
-  const arrowRef = useRef(null);
+ 
+
+
+  const buttonRef = useRef(null);
 
   useEffect(() => {
-    const arrow = arrowRef.current;
-
-    const handleIntersection = (entries: any) => {
-      const entry = entries[0];
-
-      if (entry.isIntersecting) {
-        gsap.from(arrow, {
-          y: 20,
-          duration: 0.8,
-          repeat: -1,
-          yoyo: true,
-          ease: "power1.inOut",
-        });
-      } else {
-        // Stop animation or reset state if needed when not in viewport
-      }
-    };
-
-    const observer = new IntersectionObserver(handleIntersection, {
-      root: null, // Use the viewport as the root
-      threshold: 0.5, // Customize this threshold based on your needs
-    });
-
-    if (arrow) {
-      observer.observe(arrow);
+    if (buttonRef.current) {
+      gsap.fromTo(
+        buttonRef.current,
+        { opacity: 1 ,
+        y:0,
+        }, // Initial state
+        {
+          y:20,
+          opacity: 1, // Fade in
+          duration: 0.5, // Animation duration
+          ease: 'power1.inOut', // Ease in-out
+          yoyo: true, // Yoyo effect (fade out after fading in)
+          repeat: -1, // Infinite loop
+        }
+      );
     }
-
-    return () => {
-      if (arrow) {
-        observer.unobserve(arrow);
-      }
-    };
   }, []);
 
   return (
@@ -67,10 +54,13 @@ const Page1 = () => {
           smooth={true}
           duration={800}
           className="hover:text-white">
-        <div ref={arrowRef} className="arrow h-42 w-24 ">
+        <div ref={buttonRef} className="arrow h-42 w-24 ">
           <img src={downarrow} alt="" />
         </div>
         </Link>
+        {/* <div ref={buttonRef} className="arrow h-42 w-24 ">
+            <img src={downarrow} alt="" />
+          </div> */}
       </div>
     </div>
   );
