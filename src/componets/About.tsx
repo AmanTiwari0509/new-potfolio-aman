@@ -1,5 +1,6 @@
 import  { useEffect, useRef } from 'react'
 import gsap from "gsap"
+import profile from "../../public/images/profile.png"
 
 const About = () => {
 
@@ -29,7 +30,7 @@ const About = () => {
       </div>
       <div className='md:grid md:grid-cols-2 flex flex-col     '>
         <div className='flex md:justify-end justify-center items-center md:pr-24 md:pt-24 pt-10'>
-          <img src="../public/images/profile.png" alt="" className='w-[300px] h-[300px] border-4 border-gray-200 rounded-full shadow-5xl  ' />
+          <img src={profile} alt="" className='w-[300px] h-[300px] border-4 border-gray-200 rounded-full shadow-5xl  ' />
         </div>
         <div className='flex flex-col gap-8 md:pr-4 md:pt-20 px-8 pt-8 '>
           <div className='text-2xl text-blue-400 font-extrabold tracking-wide'>Aman Tiwari</div>
