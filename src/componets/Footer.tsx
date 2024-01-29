@@ -1,4 +1,4 @@
-import React from 'react'
+
 import linkdin from "../../public/icons/linkdin.svg"
 import git from "../../public/icons/git.svg"
 import instagram from "../../public/icons/instagram.svg"

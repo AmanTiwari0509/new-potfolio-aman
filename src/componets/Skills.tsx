@@ -69,7 +69,7 @@
 // };
 
 // export default Skills;
-import React, { useState, useLayoutEffect, useRef } from "react";
+import  { useState, useLayoutEffect, useRef } from "react";
 import { CircularProgressbar, buildStyles } from "react-circular-progressbar";
 import "react-circular-progressbar/dist/styles.css";
 

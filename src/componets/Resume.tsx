@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import work from "../../public/icons/work.svg"
 import study from "../../public/icons/study.svg"
 
@@ -43,19 +43,6 @@ const education = [
   },
 ]
 const Resume = () => {
-
-
-  const circles = Array.from({ length: 6 }, (_, index) => index + 1);
-
-  const [isLeftPosition, setLeftPosition] = useState(true);
-
-  const togglePosition = () => {
-    setLeftPosition((prevPosition) => !prevPosition);
-  };
-
-
-
-
 
   return (
     <>

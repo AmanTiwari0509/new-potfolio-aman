@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from "react";
+import  { useEffect, useRef } from "react";
 import Header from "./Header";
 import { Link } from "react-scroll";
 import downarrow from "../../public/icons/downarrow.svg";

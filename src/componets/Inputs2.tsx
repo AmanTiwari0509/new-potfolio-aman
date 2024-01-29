@@ -1,4 +1,4 @@
-import React from 'react'
+
 
 const Inputs2 = ({ name, value, onChange, label, placeholder }: any) => {
     return (

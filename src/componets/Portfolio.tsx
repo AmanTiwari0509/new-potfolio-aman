@@ -1,4 +1,4 @@
-import React from 'react'
+
 import scube from "../../public/images/scube.png"
 import zaincare from "../../public/images/zaincare.png"
 import duvet from "../../public/images/duvet.png"

@@ -1,4 +1,4 @@
-import React from 'react'
+
 import developmet from "../../public/icons/development.svg"
 import skip from "../../public/icons/skip.svg"
 import chart from "../../public/icons/chart.svg"

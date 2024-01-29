@@ -1,4 +1,3 @@
-import React from "react";
 import Inputs from "./Inputs";
 import Inputs2 from "./Inputs2";
 import abovearrow from "../../public/icons/arrow.svg";
