@@ -11,29 +11,13 @@ import Logo from "./componets/Logo";
 import Footer from "./componets/Footer";
 import { Link, Element, scrollSpy, scroller } from "react-scroll";
 
-// const scrollToComponent = (componentId: any) => {
-//   scroller.scrollTo(componentId, {
-//     duration: 800,
-//     delay: 0,
-//     smooth: "easeInOutQuart",
-//   });
-// };
+
+
 
 function App() {
   return (
     <>
-      {/* <div className=''>
-      <Page1 />
-      <About />
-      <Skills />
-      <ProjectCount />
-      <Services /> 
-      <Portfolio /> 
-      <Resume />
-      <Logo />
-      <Contact />
-      <Footer />
-    </div> */}
+
       <div className="">
         <Element name="page1">
           <Page1 />
@@ -62,6 +46,7 @@ function App() {
         </Element>
         <Footer />
       </div>
+
     </>
   );
 }
