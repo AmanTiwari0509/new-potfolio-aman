@@ -9,7 +9,7 @@ import Resume from "./componets/Resume";
 import Contact from "./componets/Contact";
 import Logo from "./componets/Logo";
 import Footer from "./componets/Footer";
-import { Link, Element, scrollSpy, scroller } from "react-scroll";
+import {  Element } from "react-scroll";
 
 
 

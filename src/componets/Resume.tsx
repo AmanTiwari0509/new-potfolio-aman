@@ -1,4 +1,4 @@
-import { useState } from 'react'
+
 import work from "../../public/icons/work.svg"
 import study from "../../public/icons/study.svg"
 
@@ -61,7 +61,7 @@ const Resume = () => {
             WORK EXPERIENCE
           </div>
         </div>
-        {experence?.map((item: any, index) => (
+        {experence?.map((item: any, index:any) => (
           <div className='flex justify-center items-center pt-20' key={index}>
             {/* Circle content */}
             <div className="rounded-full border-2 w-[150px] h-[150px] bg-blue-400 flex p-3 relative">
@@ -95,7 +95,7 @@ const Resume = () => {
               EDUCATION
             </div>
           </div>
-          {education?.map((item: any, index) => (
+          {education?.map((item: any, index:any) => (
             <div className='flex justify-center items-center pt-20' key={index}>
               {/* Circle content */}
               <div className="rounded-full border-2 w-[150px] h-[150px] bg-blue-400 flex p-3 relative">
