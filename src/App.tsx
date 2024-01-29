@@ -22,18 +22,6 @@ import { Link, Element, scrollSpy, scroller } from "react-scroll";
 function App() {
   return (
     <>
-      {/* <div className=''>
-      <Page1 />
-      <About />
-      <Skills />
-      <ProjectCount />
-      <Services /> 
-      <Portfolio /> 
-      <Resume />
-      <Logo />
-      <Contact />
-      <Footer />
-    </div> */}
       <div className="">
         <Element name="page1">
           <Page1 />

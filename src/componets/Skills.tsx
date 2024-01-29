@@ -84,7 +84,7 @@ const Skills = () => {
     },
     {
       name: "Javascript",
-      value: 75,
+      value: 85,
     },
     {
       name: "React JS",

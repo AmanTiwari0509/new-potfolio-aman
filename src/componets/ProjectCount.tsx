@@ -22,8 +22,8 @@ const ProjectCount = () => {
                 return (
                     <div className=''>
                         <div className='text-white flex flex-col gap-4 justify-center items-center'>
-                            <h1 className='text-4xl'>{item.value}</h1>
-                            <p>{item.name}</p>
+                            <h1 className='text-5xl'>{item.value}</h1>
+                            <p className='text-2xl'>{item.name}</p>
                         </div>
 
                     </div>
