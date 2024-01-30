@@ -1,5 +1,3 @@
-import  { useEffect, useRef } from 'react'
-import gsap from "gsap"
 import profile from "../../public/images/profile.png"
 
 const About = () => {
