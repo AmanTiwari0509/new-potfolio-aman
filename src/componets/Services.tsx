@@ -12,43 +12,43 @@ const Services = () => {
                 <div className='text-sm tracking-wide text-center text-gray-500'>Experienced frontend engineer specializing in crafting pixel-perfect, user-centric interfaces that elevate digital experiences.</div>
             </div>
             <div className='lg:grid lg:grid-cols-4 md:grid md:grid-cols-2 flex flex-col gap-4 items-center justify-center md:py-36 py-16  md:pl-20 pl-0'>
-                <div className='w-[270px]  h-[270px]  bg-gray-200 hover:bg-white  flex flex-row justify-center items-center rounded-md hover:border-4 hover:border-blue-400'>
+                <div className='w-[280px]  h-[280px]  bg-gray-200 hover:bg-white  flex flex-row justify-center items-center rounded-md hover:border-4 hover:border-blue-400'>
                     <div className='flex flex-col gap-8 justify-center items-center '>
                         <img src={developmet} alt="" className='w-20 h-20' />
                         <div className='flex flex-col  justify-center items-center'>
                             <p className='font-bold text-black text-lg'>Web Development</p>
-                            <p className='text-center px-4 pt-2'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, nesciunt!</p>
+                            <p className='text-center px-4 pt-2'>Transforming ideas into digital reality with our expert web development services for a standout online presence.</p>
                         </div>
 
                     </div>
 
                 </div>
-                <div className='w-[270px] h-[270px] bg-gray-200 hover:bg-white  flex flex-row justify-center items-center rounded-md hover:border-4 hover:border-blue-400'>
+                <div className='w-[280px] h-[280px] bg-gray-200 hover:bg-white  flex flex-row justify-center items-center rounded-md hover:border-4 hover:border-blue-400'>
                     <div className='flex flex-col gap-8 justify-center items-center'>
                         <img src={skip} alt="" className='w-20 h-20' />
                         <div className='flex flex-col  justify-center items-center'>
                             <p className='font-bold text-black text-lg'>Motion Development</p>
-                            <p className='text-center px-4 pt-2'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, nesciunt!</p>
+                            <p className='text-center px-4 pt-2'>Capturing attention through the art of motion, we redefine digital experiences with seamless animations and transitions.</p>
                         </div>
 
                     </div>
 
-                </div><div className='w-[270px] h-[270px] bg-gray-200 hover:bg-white  flex flex-row justify-center items-center rounded-md hover:border-4 hover:border-blue-400'>
+                </div><div className='w-[280px] h-[280px] bg-gray-200 hover:bg-white  flex flex-row justify-center items-center rounded-md hover:border-4 hover:border-blue-400'>
                     <div className='flex flex-col gap-8 justify-center items-center'>
                         <img src={project} alt="" className='w-20 h-20' />
                         <div className='flex flex-col  justify-center items-center'>
                             <p className='font-bold text-black text-lg'>Project Mangement</p>
-                            <p className='text-center px-4 pt-2'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, nesciunt!</p>
+                            <p className='text-center px-4 pt-2'>Efficiently steering projects from conception to completion, our project management ensures precision, collaboration, and success.</p>
                         </div>
 
                     </div>
 
-                </div><div className='w-[270px] h-[270px] bg-gray-200 hover:bg-white  flex flex-row justify-center items-center rounded-md hover:border-4 hover:border-blue-400'>
+                </div><div className='w-[280px] h-[280px] bg-gray-200 hover:bg-white  flex flex-row justify-center items-center rounded-md hover:border-4 hover:border-blue-400'>
                     <div className='flex flex-col gap-8 justify-center items-center'>
                         <img src={chart} alt="" className='w-20 h-20' />
                         <div className='flex flex-col  justify-center items-center'>
                             <p className='font-bold text-black text-lg'>Management Software</p>
-                            <p className='text-center px-4 pt-2'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, nesciunt!</p>
+                            <p className='text-center px-4 pt-2'>Strategic software management for streamlined development, ensuring efficiency, quality, and project success.</p>
                         </div>
 
                     </div>
