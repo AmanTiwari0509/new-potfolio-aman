@@ -81,23 +81,20 @@ const Resume = () => {
 
             {/* Text to the right or left of the circle based on state */}
             <div
-              className={`absolute ${
-                index % 2 ? "left-[55%]" : "right-[57%]"
-              } pl-4`}
+              className={`absolute ${index % 2 ? "left-[55%]" : "right-[57%]"
+                } pl-4`}
             >
               <div
-                className={`flex flex-col ${
-                  index % 2
+                className={`flex flex-col ${index % 2
                     ? "justify-start items-start"
                     : "justify-end items-end"
-                }  `}
+                  }  `}
               >
                 <h1 className="text-xl font-bold">{item.companyName}</h1>
                 <p className="text-lg text-blue-400">{item.role}</p>
                 <p
-                  className={`${
-                    index % 2 ? "text-left pr-20" : "text-right pl-20"
-                  }tracking-wide text-gray-400 `}
+                  className={`${index % 2 ? "text-left pr-20" : "text-right pl-20"
+                    }tracking-wide text-gray-400 `}
                 >
                   {item.description}
                 </p>
@@ -135,16 +132,14 @@ const Resume = () => {
 
               {/* Text to the right or left of the circle based on state */}
               <div
-                className={`absolute ${
-                  index % 2 ? "left-[55%]" : "right-[57%]"
-                } transform translate-x-2`}
+                className={`absolute ${index % 2 ? "left-[55%]" : "right-[57%]"
+                  } transform translate-x-2`}
               >
                 <div
-                  className={`flex flex-col ${
-                    index % 2
+                  className={`flex flex-col ${index % 2
                       ? "justify-start items-start"
                       : "justify-end items-end"
-                  }  `}
+                    }  `}
                 >
                   <h1 className="text-xl font-bold">{item.name}</h1>
                   <p className="text-lg text-blue-400">{item.course}</p>
@@ -163,11 +158,11 @@ const Resume = () => {
         </div>
         <div className="flex lg:justify-center lg:items-center items-start justify-start gap-2 pt-20">
           {/* Circle content */}
-          <div className="rounded-full border-2 w-[100px] h-[100px]  bg-blue-400  p-4 relative  ">
+          <div className="rounded-full border-2 w-[100px] h-[100px]  bg-blue-400  p-4  ">
             <img
               src={work}
               alt=""
-              className=" absolute top-0 left-0 right-0 bottom-0 m-auto w-16 h-16 "
+              className="  top-0 left-0 right-0 bottom-0 m-auto w-16 h-16 "
             />
           </div>
 
@@ -179,7 +174,7 @@ const Resume = () => {
         {experence?.map((item: any) => (
           <div className="flex  gap-2 pt-20">
             {/* Circle content */}
-            <div className="rounded-full border-2 w-[100px] h-[100px]  bg-blue-400  p-5 relative  ">
+            <div className="rounded-full border-2 w-[100px] h-[100px]  bg-blue-400  p-5   ">
               <div className="">
                 <p className="text-center text-[12px] text-white">
                   {item.experence}
@@ -198,8 +193,8 @@ const Resume = () => {
           </div>
         ))}
 
-        <div className="flex items-center gap-2 pt-20">
-          {/* Circle content */}
+        {/* <div className="flex items-center gap-2 pt-20">
+         
           <div className="rounded-full border-2 w-[100px] h-[100px]  bg-blue-400  p-4 relative  ">
             <img
               src={study}
@@ -208,15 +203,26 @@ const Resume = () => {
             />
           </div>
 
-          {/* Text to the right of the circle */}
+        
           <div className="">
             <p className="font-extrabold text-3xl ">EDUCATION </p>
           </div>
+        </div> */}
+        <div className="flex items-center gap-2 pt-20">
+          <div className="rounded-full border-2 w-[100px] h-[100px] bg-blue-400 p-4">
+            <img src={study} alt="" className="w-16 h-16 mx-auto" />
+          </div>
+
+          {/* Text to the right of the circle */}
+          <div className="ml-4">
+            <p className="font-extrabold text-3xl">EDUCATION</p>
+          </div>
         </div>
+
         {education?.map((item: any) => (
           <div className="flex   gap-2 pt-20">
             {/* Circle content */}
-            <div className="rounded-full border-2 w-[100px] h-[100px] flex justify-center items-center  bg-blue-400  p-5 relative  ">
+            <div className="rounded-full border-2 w-[100px] h-[100px] flex justify-center items-center  bg-blue-400  p-5   ">
               <div className="">
                 <p className="text-center text-[12px] text-white">
                   {item.batch}
